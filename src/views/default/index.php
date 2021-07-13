@@ -2,7 +2,7 @@
 
 use bedezign\yii2\audit\Audit;
 use bedezign\yii2\audit\components\panels\Panel;
-use dosamigos\chartjs\ChartJs;
+use bedezign\yii2\audit\widgets\ChartJs;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */

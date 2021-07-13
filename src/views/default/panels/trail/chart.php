@@ -3,7 +3,7 @@
 
 use bedezign\yii2\audit\models\AuditTrail;
 use bedezign\yii2\audit\panels\TrailPanel;
-use dosamigos\chartjs\ChartJs;
+use bedezign\yii2\audit\widgets\ChartJs;
 
 //initialise defaults (0 entries) for each day
 $defaults = [];

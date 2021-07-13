@@ -1,6 +1,6 @@
 <?php
 
-use bedezign\yii2\audit\components\web\Helper;
+use yii\bootstrap4\Tabs;
 
 /* @var $panel yii\debug\panels\RequestPanel */
 
@@ -66,6 +66,6 @@ if (isset($panel->data['SERVER'])) {
     ];
 }
 
-echo Helper::bootstrap('Tabs', 'widget', [
+echo Tabs::widget([
     'items' => $items,
 ]);

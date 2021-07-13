@@ -1,21 +1,19 @@
 <?php
 
 use yii\helpers\Html;
-use \dmstr\bootstrap\Tabs;
-use cornernote\returnurl\ReturnUrl;
-use bedezign\yii2\audit\components\web\Helper;
+use yii\bootstrap4\ActiveForm;
 
 /**
  * @var yii\web\View $this
  * @var tests\app\models\Post $post
- * @var yii\bootstrap\ActiveForm|yii\bootstrap4\ActiveForm $form
+ * @var yii\bootstrap4\ActiveForm $form
  */
 
 ?>
 
 <div class="post-form">
 
-    <?php $form = Helper::bootstrap('ActiveForm', 'begin'); ?>
+    <?php $form = ActiveForm::begin() ?>
 
     <?= $form->field($post, 'title')->textInput(['maxlength' => true]) ?>
 
@@ -26,6 +24,6 @@ use bedezign\yii2\audit\components\web\Helper;
         'class' => 'btn btn-success'
     ]); ?>
 
-    <?php Helper::bootstrap('ActiveForm', 'end'); ?>
+    <?php ActiveForm::end() ?>
 
 </div>

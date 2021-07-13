@@ -2,7 +2,7 @@
 /* @var $panel ErrorPanel */
 
 use bedezign\yii2\audit\panels\ErrorPanel;
-use dosamigos\chartjs\ChartJs;
+use bedezign\yii2\audit\widgets\ChartJs;
 
 echo ChartJs::widget([
     'type' => 'bar',

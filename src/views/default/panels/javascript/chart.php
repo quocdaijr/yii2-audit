@@ -2,7 +2,7 @@
 /* @var $panel JavascriptPanel */
 
 use bedezign\yii2\audit\panels\JavascriptPanel;
-use dosamigos\chartjs\ChartJs;
+use bedezign\yii2\audit\widgets\ChartJs;
 
 echo ChartJs::widget([
     'type' => 'bar',
